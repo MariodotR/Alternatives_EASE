@@ -1,5 +1,14 @@
-# Alternatives_EASE
+# Alternatives to Shallow Autoencoders for Collaborative Filtering
 
+https://link.springer.com/chapter/10.1007/978-3-032-02215-8_10
+
+Mallea, M., Nebot, À., Mugica, F. (2026). Alternatives to Shallow Autoencoders for Collaborative Filtering. In: Leung, C.K., Dignös, A., Kotsis, G., Tjoa, A.M., Khalil, I. (eds) Big Data Analytics and Knowledge Discovery. DaWaK 2025. Lecture Notes in Computer Science, vol 16048. Springer, Cham. https://doi.org/10.1007/978-3-032-02215-8_10
+
+# Abstract
+
+Collaborative filtering (CF) is a cornerstone of recommender systems and plays a relevant role in many modern applications. CF uses user-item interaction data to discover future preferences. Although deep learning models have shown promise in CF, Embarrassingly Shallow Autoencoders for Sparse Data (EASE) has gained attention for its outstanding ranking accuracy provided by its closed-form solution. EASE relies primarily on relationships among items to fit a full-rank high-dimensional linear mapping. We hypothesize that this design limits its capacity to capture similar but not equivalent fine-grained user relationships, consequently limiting its recommendation accuracy. This paper introduces an alternative formulation based on EASE that takes advantage of user-user information. Furthermore, we propose a hybrid model that combines both user-user and item-item adjacency distributions.
+
+Our experiments reveal that the proposed models outperform EASE on well-known recommendation benchmarks, highlighting the significance of including the user alternative in shallow autoencoder studies for CF.
 
 ## EASE_R Model
 
